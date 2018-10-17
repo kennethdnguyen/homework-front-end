@@ -15,7 +15,7 @@ class Gif extends Component {
     const expandUrl = gif.images.fixed_height.url;
 
     return (
-      <div className="champion">
+      <div className="gif">
         <ModalImage
           small={gifUrl}
           large={expandUrl}

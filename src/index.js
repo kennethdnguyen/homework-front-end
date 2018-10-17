@@ -116,7 +116,7 @@ class AppPage extends Component {
     if (this.state.trendingClicked) {
       var gifs = this.state.trendingArray.map(element => {
         return (
-          <li className="champions_item" key={element.id}>
+          <li className="gif_item" key={element.id}>
             <Gif gif={element} />
           </li>
         );
@@ -124,7 +124,7 @@ class AppPage extends Component {
     } else {
       var gifs = this.state.array.map(element => {
         return (
-          <li className="champions__item" key={element.id}>
+          <li className="gif_item" key={element.id}>
             <Gif gif={element} />
           </li>
         );
@@ -193,7 +193,7 @@ class AppPage extends Component {
             </div>
           </div>
         </div>
-        <ul className="champions">{gifs}</ul>
+        <ul className="gifs">{gifs}</ul>
       </div>
     );
   }
