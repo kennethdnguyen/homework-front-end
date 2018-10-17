@@ -1,0 +1,85 @@
+body {
+  background: black !important;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  background: linear-gradient(to right, green, cyan, purple, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  line-height: 60px;
+}
+.flex-container > div {
+  padding: 5px;
+  margin-right: 60px;
+}
+.topInfo h1 {
+  font-size: 7vw;
+  color: white;
+}
+.topInfo p {
+  font-size: 3vw;
+  color: white;
+}
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 60%;
+  background: #f1f1f1;
+}
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+form.example button:hover {
+  background: #0b7dda;
+}
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.page {
+  position: relative;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.button {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.champions {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.champions__item {
+  display: inline-flex;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.champion {
+  position: relative;
+}
